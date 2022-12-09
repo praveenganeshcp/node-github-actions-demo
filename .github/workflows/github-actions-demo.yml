@@ -11,3 +11,5 @@ jobs:
       - run: node -v
       - run: npm -v
       - run: npm run build
+      - run: pwd
+      - run: ls
