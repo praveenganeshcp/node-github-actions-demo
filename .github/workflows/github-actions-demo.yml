@@ -1,5 +1,7 @@
 name: Node github actions demo
-on: [push]
+on: 
+  push:
+    branches: ["dev"]
 jobs:
   Build-application:
     runs-on: ubuntu-latest
