@@ -1,7 +1,7 @@
 name: Node github actions demo
 on: 
   push:
-    branches: ["dev"]
+    branches: ["master", "dev"]
 jobs:
   Build-application:
     runs-on: ubuntu-latest
