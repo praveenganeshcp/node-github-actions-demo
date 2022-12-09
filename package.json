@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "echo build application ..."
+    "build": "mkdir dist && cp ./index.js ./dist/",
+    "test": "echo running test...",
+    "lint": "echo running linter"
   },
   "keywords": [],
   "author": "",
