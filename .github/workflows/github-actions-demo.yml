@@ -1,7 +1,7 @@
 name: Node github actions demo
 on: [push]
 jobs:
-  Build application:
+  Build-application:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
